@@ -1,0 +1,6 @@
+{
+  "name": "Abdul Saleem & Sadiya Wedding Invitation",
+  "description": "Official luxury Islamic wedding invitation for Abdul Saleem & Sadiya hosted by Mohammad Subhan & Family. Events include Manja (3 Jan 2027) and Nikah (4 Jan 2027).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

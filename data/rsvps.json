@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rsvp_1794136605813_6bl8w",
+    "fullName": "Syed Imran",
+    "mobileNumber": "+91 98888 77777",
+    "guestCount": 3,
+    "attending": "Yes",
+    "eventChoice": "Both",
+    "personalMessage": "Updated: Looking forward to both events!",
+    "createdAt": "2026-11-08T11:16:50.660Z"
+  },
+  {
+    "id": "rsvp-subhan-1",
+    "fullName": "Dr. Zameer Ahmed & Family",
+    "mobileNumber": "+91 98490 12345",
+    "guestCount": 4,
+    "attending": "Yes",
+    "eventChoice": "Both",
+    "personalMessage": "Mubarak to Mohammad Subhan Sahab & family! May Allah bless the couple Abdul Saleem and Sadiya with eternal joy and Mawaddah.",
+    "createdAt": "2026-11-06T11:16:28.283Z"
+  },
+  {
+    "id": "rsvp-subhan-2",
+    "fullName": "Tariq Hussain & Family",
+    "mobileNumber": "+91 94401 67890",
+    "guestCount": 3,
+    "attending": "Yes",
+    "eventChoice": "Nikah",
+    "personalMessage": "Barakallahu lakuma wa baraka alaikuma wa jamaa bainakuma fee khair. Looking forward to celebrating the Nikah at TYR Garden!",
+    "createdAt": "2026-11-07T11:16:28.284Z"
+  }
+]

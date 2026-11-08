@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-arabic: 'Amiri', 'Traditional Arabic', serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #2D2721;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-arabic {
+  font-family: 'Amiri', 'Traditional Arabic', serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Islamic Arch Clip Path Styles */
+.islamic-arch-clip {
+  border-radius: 50% 50% 0 0 / 25% 25% 0 0;
+}
+
+.islamic-pointed-arch {
+  clip-path: polygon(
+    50% 0%, 
+    65% 5%, 
+    80% 14%, 
+    90% 25%, 
+    96% 38%, 
+    100% 52%, 
+    100% 100%, 
+    0% 100%, 
+    0% 52%, 
+    4% 38%, 
+    10% 25%, 
+    20% 14%, 
+    35% 5%
+  );
+}
+
+/* Shimmer & Gold Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #996515 0%, #C5A059 25%, #E5C378 50%, #B8860B 75%, #8C6212 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(135deg, #E5C378, #C5A059, #8C6212) 1;
+}
+
+.gold-border-glow {
+  box-shadow: 0 4px 30px rgba(197, 160, 89, 0.15);
+}
+
+.pearl-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 185, 137, 0.35);
+}
+
+/* Delicate floating particle animation */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(3deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 18s linear infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Subtle Moroccan geometric background pattern */
+.bg-islamic-pattern {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#D4B989 0.75px, transparent 0.75px), radial-gradient(#D4B989 0.75px, #FAF7F2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
